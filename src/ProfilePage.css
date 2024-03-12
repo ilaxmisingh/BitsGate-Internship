@@ -1,0 +1,122 @@
+/* ProfilePage.css */
+
+.resume-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #080227;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(199, 193, 193, 0.87);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: orangered; 
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .section {
+    border-bottom: 1px solid white; 
+    padding-bottom: 20px; 
+  }
+  
+  
+  .item {
+    margin-bottom: 20px; 
+  }
+  
+  .item:after {
+    content: ''; 
+    display: block; 
+    border-bottom: 1px solid white;
+    margin-top: 10px; 
+  }
+  
+  
+  .skills {
+    border-bottom: 1px solid white;
+    padding-bottom: 20px; }
+  
+  
+  .certifications {
+    border-bottom: 1px solid white; 
+      padding-bottom: 20px; 
+  }
+  
+  .header-left {
+    width: 60%;
+  }
+  
+  .header-right {
+    width: 40%;
+  }
+  
+  .name {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .contact {
+    margin-bottom: 10px;
+  }
+  
+  .work-experience,
+  .education,
+  .skills,
+  .certifications,
+  .activities {
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .item {
+    margin-bottom: 20px;
+    color:white
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .sub {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    color:white
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    color:white
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333cad;
+    margin-top: 20px;
+    background-color: orangered; /* Green background */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
