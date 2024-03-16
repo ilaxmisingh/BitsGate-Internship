@@ -1,13 +1,13 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import './HomePage.css';
 function HomePage() {
   return (
     <div>
       <h1>Home Page</h1>
       <Link to="/profile">
-        <button>View Profile</button>
+        <element class ="button">View Profile</element>
       </Link>
     </div>
   );
